@@ -2,7 +2,7 @@ function NavLink({ children }) {
   return (
     <a
       href=""
-      className="text-secondary sm:text-sm md:text-lg font-semibold hover:border-b-2 hover:border-secondary "
+      className="text-secondary sm:text-sm md:text-lg font-semibold border-b-2 border-white hover:border-secondary "
     >
       {children}
     </a>

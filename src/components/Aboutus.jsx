@@ -18,7 +18,7 @@ function Aboutus() {
           nam sit convallis quam eu maecenas.
         </p>
         <div>
-          <button className="button-secondary">Know More</button>
+          <button className="button-secondary mt-14">Know More</button>
         </div>
       </div>
     </div>

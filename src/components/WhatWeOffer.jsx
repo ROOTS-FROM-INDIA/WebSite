@@ -1,3 +1,4 @@
+
 function WhatWeOffer() {
   return (
     <div className="flex flex-col justify-around items-center text-center mt-32 pt-12 gap-10  bg-neutral3">
@@ -10,6 +11,7 @@ function WhatWeOffer() {
           sodales facilisis consequat ut scelerisque sagittis. Id urna dignissim
           nam sit convallis quam eu maecenas.
         </p>
+        
         <div>
           <button className="button-secondary mt-14">View All</button>
         </div>

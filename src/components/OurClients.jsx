@@ -1,3 +1,12 @@
+import one from "../assets/client-logos/logo 2.svg";
+import two from "../assets/client-logos/Rectangle 4157.svg";
+import three from "../assets/client-logos/Rectangle 4187.svg";
+import four from "../assets/client-logos/Rectangle 4188.svg";
+import five from "../assets/client-logos/Rectangle 4189.svg";
+import six from "../assets/client-logos/Rectangle 4190.svg";
+import seven from "../assets/client-logos/unnamed 1.svg";
+import eight from "../assets/client-logos/Urumee 1.svg";
+
 function OurClients() {
   return (
     <div className="flex flex-col justify-around items-center text-center pt-12 gap-10  bg-neutral3">
@@ -10,7 +19,17 @@ function OurClients() {
           sodales facilisis consequat ut scelerisque sagittis. Id urna dignissim
           nam sit convallis quam eu maecenas.
         </p>
-        
+
+        <div className="flex flex-wrap justify-center space-x-4 md:space-x-8 space-y-10">
+          <img src={one} alt="" />
+          <img src={two} alt="" />
+          <img src={three} alt="" />
+          <img src={four} alt="" />
+          <img src={five} alt="" />
+          <img src={six} alt="" />
+          <img src={seven} alt="" />
+          <img src={eight} alt="" />
+        </div>
       </div>
     </div>
   );

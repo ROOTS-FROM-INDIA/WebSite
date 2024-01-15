@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       height: {
-        box: "706px",
+        box: "785px",
       },
     },
     colors: {

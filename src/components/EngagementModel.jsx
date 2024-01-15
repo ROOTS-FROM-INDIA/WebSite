@@ -36,7 +36,7 @@ function EngagementModel() {
           />
         </div>
         <div>
-          <img src={engage} alt="" className="h-[500px] hidden lg:block" />
+          <img src={engage} alt="" className="hidden lg:block flex-1" />
         </div>
       </div>
     </div>

@@ -1,4 +1,4 @@
-import engage from "../assets/engagement-model.png";
+import engage from "../assets/18 2 (2).svg";
 import elipse from "../assets/Ellipse 197.svg";
 
 function EngagementModel() {
@@ -36,7 +36,7 @@ function EngagementModel() {
           />
         </div>
         <div>
-          <img src={engage} alt="" className="h-[500px] hidden lg:block" />
+          <img src={engage} alt="" className="hidden lg:block flex-1" />
         </div>
       </div>
     </div>

@@ -2,7 +2,7 @@ import middle from "../assets/middle-finger.svg";
 
 function Banner() {
   return (
-    <div className="relative flex flex-col-reverse sm:flex-row items-center justify-start bg-tertiary text-center sm:text-left px-4">
+    <div className="relative flex flex-col-reverse sm:flex-row items-center justify-start bg-tertiary text-center sm:text-left sm:pt-20 md:h-box">
       <svg
         className="absolute top-16 left-0 w-28 sm:w-48 md:w-96"
         xmlns="http://www.w3.org/2000/svg"
@@ -17,8 +17,8 @@ function Banner() {
         />
       </svg>
 
-      <div className="sm:w-1/2 z-20">
-        <div className="flex flex-col items-center md:items-start justify-around space-y-10 ml-5 my-5 md:mt-48 md:ml-24 md:my-20">
+      <div className="sm:w-1/2 z-20 flex-col justify-between">
+        <div className="flex flex-col items-center sm:items-start justify-around space-y-10 ml-5 my-5 md:ml-24 pl-5">
           <div className="text-neutral1 text-2xl sm:text-4xl md:text-5xl font-semibold">
             Lorem ipsum dolor sit amet{" "}
             <span className="text-secondary font-semibold">consectetur</span>.
@@ -32,9 +32,19 @@ function Banner() {
           </button>
         </div>
       </div>
-      <div className="md:relative sm:w-1/2 mt-24">
-        <img src={middle} alt="" className="md:absolute -top-72 right-0 w-full" />
+      <div className="relative flex flex-1 w-full h-full sm:w-1/2">
+        <img
+          src={middle}
+          alt=""
+          className="md:absolute -top-20 right-0 w-full h-full z-20"
+        />
+        <div className="flex flex-col flex-1 h-full items-end">
+          <div className="bg-white h-24"></div>
+        </div>
+        <div className="flex-1 h-full bg-secondary rounded-b-full z-10"></div>
       </div>
+
+      <div className="absolute w-full h-24 bottom-0 left-0 bg-white"></div>
     </div>
   );
 }

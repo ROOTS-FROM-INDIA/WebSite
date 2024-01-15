@@ -1,4 +1,4 @@
-import engage from "../assets/engagement-model.svg";
+import engage from "../assets/18 2 (2).svg";
 import elipse from "../assets/Ellipse 197.svg";
 
 function EngagementModel() {

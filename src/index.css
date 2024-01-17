@@ -8,16 +8,23 @@
   }
 
   p {
-    @apply text-[16px] md:text-xl md:font-medium;
+    @apply text-[16px] md:text-xl md:font-medium text-neutral1;
   }
 
   h3 {
     @apply text-2xl md:text-5xl md:font-bold text-secondary;
   }
+
+  h4 {
+    @apply text-xl md:font-semibold text-secondary;
+  }
 }
 
 @layer components {
   .button-secondary {
-    @apply bg-secondary text-white rounded px-5 py-2 hover:opacity-90 font-semibold w-52;
+    @apply bg-secondary text-white rounded px-5 py-2 hover:opacity-90 font-semibold w-52 text-center;
+  }
+  .button-alternative {
+    @apply bg-white text-secondary rounded px-5 py-2 hover:opacity-90 font-semibold w-52 text-center;
   }
 }

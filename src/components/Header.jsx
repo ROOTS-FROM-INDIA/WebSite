@@ -1,14 +1,15 @@
+import { Link } from "react-router-dom";
 import NavLink from "./Link";
 function Header() {
   return (
     <div className="bg-secondary flex justify-between items-center p-5 sm:bg-white z-30 fixed top-0 left-0 right-0 opacity-100">
       <div className="text-white sm:text-secondary">Logo</div>
       <div className="hidden sm:flex gap-4 md:gap-6 lg:gap-12">
-        <NavLink>Home</NavLink>
+        <NavLink route={"/home"}>Home</NavLink>
         <NavLink>About Us</NavLink>
-        <NavLink>Services</NavLink>
-        <NavLink>Blogs</NavLink>
-        <NavLink>Sign-Up</NavLink>
+        <NavLink route={"/services"}>Services</NavLink>
+        {/* <NavLink>Blogs</NavLink>   */}
+        {/* <NavLink>Sign-Up</NavLink> */}
       </div>
       <div className="sm:hidden">
         <svg
@@ -24,7 +25,9 @@ function Header() {
         </svg>
       </div>
       <div className="hidden sm:flex">
-        <button className="button-secondary">Connect With Us</button>
+        <Link to={"/contactus"} className="button-secondary">
+          Connect With Us
+        </Link>
       </div>
     </div>
   );

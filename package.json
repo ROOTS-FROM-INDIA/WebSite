@@ -10,11 +10,12 @@
     "preview": "vite preview",
     "tailwind:watch": "tailwindcss -i src/index.css -o src/App.css --watch",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": ""
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.2"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",

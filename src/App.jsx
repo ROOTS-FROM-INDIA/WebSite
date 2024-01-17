@@ -1,8 +1,10 @@
 import "./App.css";
-import HomePage from "./pages/HomePage";
+import AboutUspage from "./pages/AboutUsPage";
+// import HomePage from "./pages/HomePage";
 
 function App() {
-  return <HomePage />;
+  return <AboutUspage />;
+  // return <HomePage />;
 }
 
 export default App;

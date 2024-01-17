@@ -1,5 +1,4 @@
 import NavLink from "./Link";
-
 function Header() {
   return (
     <div className="bg-secondary flex justify-between items-center p-5 sm:bg-white z-30 fixed top-0 left-0 right-0 opacity-100">
@@ -25,9 +24,7 @@ function Header() {
         </svg>
       </div>
       <div className="hidden sm:flex">
-        <button className="button-secondary">
-          Connect With Us
-        </button>
+        <button className="button-secondary">Connect With Us</button>
       </div>
     </div>
   );

@@ -8,6 +8,7 @@ import "./index.css";
 import AllServices from "./pages/AllServices.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import ContactUs from "./pages/ContactUs.jsx";
+import AboutUspage from "./pages/AboutUsPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <HomePage />,
+      },
+      {
+        path: "/aboutus",
+        element: <AboutUspage />,
       },
       {
         path: "/home",

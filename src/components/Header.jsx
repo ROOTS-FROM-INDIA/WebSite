@@ -6,7 +6,7 @@ function Header() {
       <div className="text-white sm:text-secondary">Logo</div>
       <div className="hidden sm:flex gap-4 md:gap-6 lg:gap-12">
         <NavLink route={"/home"}>Home</NavLink>
-        <NavLink>About Us</NavLink>
+        <NavLink route={"/aboutus"}>About Us</NavLink>
         <NavLink route={"/services"}>Services</NavLink>
         {/* <NavLink>Blogs</NavLink>   */}
         {/* <NavLink>Sign-Up</NavLink> */}

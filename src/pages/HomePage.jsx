@@ -9,7 +9,6 @@ import EngagementModel from "../components/EngagementModel";
 function HomePage() {
   return (
     <>
-      <Header />
       <Banner />
       <Aboutus />
       <WhatWeOffer />
